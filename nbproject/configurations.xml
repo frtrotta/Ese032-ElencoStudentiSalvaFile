@@ -8,6 +8,7 @@
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
                    projectFiles="true">
+      <itemPath>.gitignore</itemPath>
       <itemPath>README.md</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
@@ -37,6 +38,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path=".gitignore" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="README.md" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
@@ -62,6 +65,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path=".gitignore" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="README.md" ex="false" tool="3" flavor2="0">
       </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
