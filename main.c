@@ -30,7 +30,7 @@ int main(int argc, char** argv) {
     outf = fopen(FNAME, "wb");
     if(outf == NULL) {
         fprintf(stderr, "Impossibile aprire il file %s\n", FNAME);
-        exit(-1);
+        exit(1);
     }
     else {
         printf("File %s aperto\n", FNAME);
@@ -49,7 +49,7 @@ int main(int argc, char** argv) {
         written = fwrite(&s, sizeof(studente), 1, outf);
         if(written != 1) {
             fprintf(stderr, "Errore di scrittura nel file\n");
-            exit(-2);
+            exit(2);
         }
         else {
             printf("Dato scritto\n");
